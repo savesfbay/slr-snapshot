@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "layers": {
+    "police": {
+      "source": "mapbox://tileset-source/savesfbay/Police_Infra",
+      "minzoom": 9,
+      "maxzoom": 14
+    },
+    "fire": {
+      "source": "mapbox://tileset-source/savesfbay/Fire_Infra",
+      "minzoom": 9,
+      "maxzoom": 14
+    },
+    "emergency_ops": {
+      "source": "mapbox://tileset-source/savesfbay/Emergency_Ops_Infra",
+      "minzoom": 9,
+      "maxzoom": 14
+    }
+  }
+}

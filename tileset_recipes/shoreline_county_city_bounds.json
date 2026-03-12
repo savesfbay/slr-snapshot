@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "layers": {
+    "county": {
+      "source": "mapbox://tileset-source/savesfbay/Bay_Area_Counties",
+      "minzoom": 4,
+      "maxzoom": 10
+    },
+    "cities": {
+      "source": "mapbox://tileset-source/savesfbay/Bay_Shoreline_Cities",
+      "minzoom": 8,
+      "maxzoom": 14
+    }
+  }
+}
