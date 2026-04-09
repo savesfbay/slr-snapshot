@@ -26,6 +26,7 @@
 <div id="map"></div>
 <script>
     mapboxgl.accessToken = 'pk.eyJ1Ijoic2F2ZXNmYmF5IiwiYSI6ImNra3JnamVwOTNkcW0zMnBkZDlxOXJjdmEifQ.XN_nfl_JbmkIyACF2wNX6Q';
+    const assetUrl = (path) => new URL(path, window.location.href).href;
     const map = new mapboxgl.Map({
         container: 'map',
         // Choose from Mapbox's core styles, or make your own style with Mapbox Studio
@@ -34,19 +35,19 @@
         zoom: 8.83
     });
     const citySnapshotsLayerId = 'slr-city-snapshots';
+    const citySnapshotTextLayerId = 'slr-city-snapshots-text';
+    const popupViewportPadding = 32;
+    const popupHorizontalClearance = 24;
+    const popupVerticalClearance = 18;
+    const estimatedPopupWidth = 520;
+    const estimatedPopupHeight = 420;
 
-    map.on('load', () => {
-      map.addSource('slr-city-snapshots-source', {
-        type: 'geojson',
-        data: 'SLR_city-snapshots.geojson'
-      });
+    function addCitySnapshotLayers(useCustomIcon) {
+      if (map.getLayer(citySnapshotsLayerId)) {
+        return;
+      }
 
-      map.loadImage('map-pin-1.png', (error, image) => {
-        if (error) throw error;
-        if (!map.hasImage('city-pin')) {
-          map.addImage('city-pin', image);
-        }
-
+      if (useCustomIcon) {
         map.addLayer({
           id: citySnapshotsLayerId,
           type: 'symbol',
@@ -55,20 +56,105 @@
             'icon-image': 'city-pin',
             'icon-size': 0.28,
             'icon-anchor': 'bottom',
-            'icon-allow-overlap': true,
-            'text-field': ['get', 'title'],
-            'text-font': ['Open Sans Semibold', 'Arial Unicode MS Bold'],
-            'text-size': 13,
-            'text-offset': [0.9, -1.2],
-            'text-anchor': 'left',
-            'text-optional': false
-          },
-          paint: {
-            'text-color': '#0f172a',
-            'text-halo-color': '#ffffff',
-            'text-halo-width': 1.25
+            'icon-allow-overlap': true
           }
         });
+      } else {
+        map.addLayer({
+          id: citySnapshotsLayerId,
+          type: 'circle',
+          source: 'slr-city-snapshots-source',
+          paint: {
+            'circle-radius': 7,
+            'circle-color': '#0071ce',
+            'circle-stroke-color': '#ffffff',
+            'circle-stroke-width': 2
+          }
+        });
+      }
+
+      map.addLayer({
+        id: citySnapshotTextLayerId,
+        type: 'symbol',
+        source: 'slr-city-snapshots-source',
+        layout: {
+          'text-field': ['get', 'title'],
+          'text-font': ['Open Sans Semibold', 'Arial Unicode MS Bold'],
+          'text-size': 13,
+          'text-offset': [0.9, -1.2],
+          'text-anchor': 'left',
+          'text-optional': false
+        },
+        paint: {
+          'text-color': '#0f172a',
+          'text-halo-color': '#ffffff',
+          'text-halo-width': 1.25
+        }
+      });
+    }
+
+    function getPopupPlacement(point) {
+      const container = map.getContainer();
+      const mapWidth = container.clientWidth;
+      const mapHeight = container.clientHeight;
+      const leftSpace = point.x - popupViewportPadding;
+      const rightSpace = mapWidth - point.x - popupViewportPadding;
+      const topSpace = point.y - popupViewportPadding;
+      const bottomSpace = mapHeight - point.y - popupViewportPadding;
+      const canFitRight = rightSpace >= estimatedPopupWidth + popupHorizontalClearance;
+      const canFitLeft = leftSpace >= estimatedPopupWidth + popupHorizontalClearance;
+      const canFitAbove = topSpace >= estimatedPopupHeight + popupVerticalClearance;
+      const canFitBelow = bottomSpace >= estimatedPopupHeight + popupVerticalClearance;
+
+      if (canFitRight) {
+        if (canFitAbove) {
+          return { anchor: 'bottom-left', offset: [20, -10] };
+        }
+        if (canFitBelow) {
+          return { anchor: 'top-left', offset: [20, 10] };
+        }
+        return { anchor: 'left', offset: [20, 0] };
+      }
+
+      if (canFitLeft) {
+        if (canFitAbove) {
+          return { anchor: 'bottom-right', offset: [-20, -10] };
+        }
+        if (canFitBelow) {
+          return { anchor: 'top-right', offset: [-20, 10] };
+        }
+        return { anchor: 'right', offset: [-20, 0] };
+      }
+
+      if (bottomSpace > topSpace) {
+        return {
+          anchor: rightSpace >= leftSpace ? 'top-left' : 'top-right',
+          offset: rightSpace >= leftSpace ? [18, 10] : [-18, 10]
+        };
+      }
+
+      return {
+        anchor: rightSpace >= leftSpace ? 'bottom-left' : 'bottom-right',
+        offset: rightSpace >= leftSpace ? [18, -10] : [-18, -10]
+      };
+    }
+
+    map.on('load', () => {
+      map.addSource('slr-city-snapshots-source', {
+        type: 'geojson',
+        data: assetUrl('SLR_city-snapshots.geojson')
+      });
+
+      map.loadImage(assetUrl('map-pin-1.png'), (error, image) => {
+        if (error) {
+          console.error('Failed to load city marker image:', error);
+          addCitySnapshotLayers(false);
+          return;
+        }
+        if (!map.hasImage('city-pin')) {
+          map.addImage('city-pin', image);
+        }
+        addCitySnapshotLayers(true);
       });
     });
     /* 
@@ -84,12 +170,17 @@
         return;
       }
       const feature = features[0];
+      const popupPlacement = getPopupPlacement(event.point);
 
       /* 
       Create a popup, specify its options 
       and properties, and add it to the map.
       */
-      const popup = new mapboxgl.Popup({ offset: [0, -15], maxWidth: '520px' })
+      const popup = new mapboxgl.Popup({
+        anchor: popupPlacement.anchor,
+        offset: popupPlacement.offset,
+        maxWidth: '520px'
+      })
         .setLngLat(feature.geometry.coordinates)
         .setHTML(
           `<h1>${feature.properties.title}</h1><p style="float:right;"><a href="${feature.properties.link}" target="_blank">Full Snapshot →</a></p><h2>At a Glance</h2><p>${feature.properties.description}</p><p><a href="${feature.properties.link}" target="_blank">Download our full evaluation of ${feature.properties.title}.</a></p>`
