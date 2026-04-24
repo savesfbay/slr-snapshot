@@ -243,6 +243,23 @@
     {
       "type": "Feature",
       "properties": {
+        "title": "San Francisco",
+        "link": "https://savesfbay.org/wp-content/uploads/2026/04/SanFrancisco-Snapshot.pdf",
+        "score": null,
+        "description": "<b>Key Vulnerabilities</b>\n            <ul>\n                <li>Flooding along the Embarcadero and low-lying creek-adjacent neighborhoods like Mission Bay and Bayview-Hunters Point</li>\n                </ul>\n            <b>Highlights</b>\n            <ul>\n                <li>Shoreline resilience and open space projects like the India Basin Waterfront Park Project</li>\n            </ul>\n            <b>Opportunities</b>\n            <ul>\n                <li>Implementing a Sea Level Rise Overlay Zone to ensure infrastructure is built to be resilient to flooding</li>\n                <li>Establish a 100-foot buffer along creek banks for flood protection</li>\n            </ul>"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.443096,
+          37.767442
+
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "title": "San Jose",
         "link": "https://savesfbay.org/wp-content/uploads/2026/03/SanJose-Snapshot.pdf",
         "score": null,
