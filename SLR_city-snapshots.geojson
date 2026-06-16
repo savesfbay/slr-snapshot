@@ -6,12 +6,102 @@
         "title": "Alameda",
         "link": "https://savesfbay.org/wp-content/uploads/2026/03/Alameda-Snapshot-1.pdf",
         "score": null,
-        "description": "<b>Key Vulnerabilities</b>\n            <ul>\n                <li>Sea level rise threatens the entirety of Alameda\u2019s shoreline and Bay Farm Island</li>\n                <li>Groundwater rise may impact legacy contamination at Alameda Point</li>\n            </ul>\n            <b>Highlights</b>\n            <ul>\n                <li>The Oakland Alameda Adaptation Committee (OAAC) is creating a plan to\nprotect the city for up to 5.5ft of sea level rise</li>\n            </ul>\n            <b>Opportunities</b>\n            <ul>\n                <li>Continue to advance the long-term shoreline adaptation plan and the associated\nnear-term projects. This will preserve community resources like the Robert W\nCrown Memorial Beach, new development on Alameda Point, and economic\ncenters like the South Shore Shopping Center.</li>\n                <li>Invest in a Workforce Development program to build and maintain green infrastructure across the city</li>\n            </ul>"
+        "description": "<b>Key Vulnerabilities</b>\n            <ul>\n                <li>Sea level rise threatens the entirety of Alameda\u2019s shoreline and Bay Farm Island</li>\n                <li>Groundwater rise may impact legacy contamination at Alameda Point</li>\n            </ul>\n            <b>Highlights</b>\n            <ul>\n                <li>The Oakland Alameda Adaptation Committee (OAAC) is creating a plan to\nprotect the city for up to 5.5ft of sea level rise</li>\n            </ul>\n            <b>Opportunities</b>\n            <ul>\n                <li>Continue to advance the long-term shoreline adaptation plan and the associated\nnear-term projects. This will preserve community resources like the Robert W\nCrown Memorial Beach, new development on Alameda Point, and economic\ncenters like the South Shore Shopping Center.</li>\n                <li>Invest in a Workforce Development program to build and maintain green infrastructure across the city.</li>\n            </ul>"
       },
       "geometry": {
         "coordinates": [
           -122.241895,
           37.765339
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Albany",
+        "link": "https://savesfbay.org/wp-content/uploads/2026/06/Albany-Snapshot.pdf",
+        "score": null,
+        "description": "<b>Key Vulnerabilities</b>\n            <ul>\n                <li>Sea level and groundwater rise by 2100 will flood parts of the Albany bulb, the area around Golden Gate Fields, and the Tom Bates Regional Sports Complex</li>\n                <li>Transportation infrastructure near the shoreline is at risk like Amtrak and highway I-580</li>\n            </ul>\n            <b>Highlights</b>\n            <ul>\n                <li>Albany is coordinating a shoreline adaptation plan with Berkeley and Emeryville</li>\n            </ul>\n            <b>Opportunities</b>\n            <ul>\n                <li>Create a storm drain master plan that aligns with Albany’s green infrastructure plan to ensure the storm drain system can function under future conditions.</li>\n                <li>Implement a Sea Level Rise Overlay Zone where flooding will occur to ensure infrastructure is built to be resilient.</li>\n            </ul>"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.297778, 37.886944
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "American Canyon",
+        "link": "https://savesfbay.org/wp-content/uploads/2026/06/AmericanCanyon-Snapshot.pdf",
+        "score": null,
+        "description": "<b>Key Vulnerabilities</b>\n            <ul>\n                <li>Flooding along the Napa River and shoreline</li>\n                <li>Flood risk to the wastewater treatment plant, Public Works Yard, and pump stations along Wetlands Edge Road</li>\n            </ul>\n            <b>Highlights</b>\n            <ul>\n                <li>American Canyon partnered with other jurisdictions in Napa County to create a joint Regional Climate Action and Adaptation Plan, and is now working to create a Regional Shoreline Adaptation Plan</li>\n            </ul>\n            <b>Opportunities</b>\n            <ul>\n                <li>Create a groundwater rise plan that assesses risk to underground utilities, contaminated sites, and flood-prone areas.</li>\n                <li>Create a green stormwater infrastructure (GSI) plan to ensure new city infrastructure incorporates GSI wherever possible.</li>\n            </ul>"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.252500, 38.168056
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Belmont",
+        "link": "https://savesfbay.org/wp-content/uploads/2026/06/Belmont-Snapshot.pdf",
+        "score": null,
+        "description": "<b>Key Vulnerabilities</b>\n            <ul>\n                <li>Areas east of the Caltrain line at risk of flooding from 3.3 feet of sea level rise</li>\n                <li>Flooding along Belmont Creek during storms</li>\n            </ul>\n            <b>Highlights</b>\n            <ul>\n                <li>The Belmont Creek Restoration Project will increase the creek’s flood retention capacity while restoring native vegetation</li>\n            </ul>\n            <b>Opportunities</b>\n            <ul>\n                <li>Establish design standards to ensure new developments and infrastructure are resilient to future flood risk.</li>\n                <li>Create a Storm Drain Master Plan that ensures that the city-owned portion of the storm drain system has the capacity to function under future flood conditions.</li>\n            </ul>"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.291667, 37.518056
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Belvedere",
+        "link": "https://savesfbay.org/wp-content/uploads/2026/06/Belvedere-Snapshot.pdf",
+        "score": null,
+        "description": "<b>Key Vulnerabilities</b>\n            <ul>\n                <li>Flooding of the Belvedere Lagoon, shoreline neighborhoods, and San Rafael Avenue, the primary access road to Belvedere</li>\n                </ul>\n            <b>Highlights</b>\n            <ul>\n                <li>Belvedere is upgrading its coastal flood barriers to protect the city from rising sea levels and severe storms</li>\n            </ul>\n            <b>Opportunities</b>\n            <ul>\n                <li>Update adaptation plans and design flood barriers to be adaptable to 6.6 feet of sea level rise.</li>\n                <li>Create a green stormwater infrastructure plan.</li>\n            </ul>"
+      },
+      "geometry": {
+        "coordinates": [
+          	-122.464444, 37.872778
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Benicia",
+        "link": "https://savesfbay.org/wp-content/uploads/2026/06/Benicia-Snapshot.pdf",
+        "score": null,
+        "description": "<b>Key Vulnerabilities</b>\n            <ul>\n                <li>Flooding of the Benicia Marina, residential areas in lower Downtown Benicia, parts of the Valero Refinery, and parts of the Benicia Industrial Park</li>\n                <li>Movement of contamination from toxic sites near the shoreline</li>\n                </ul>\n            <b>Highlights</b>\n            <ul>\n                <li>Design of a sea wall to protect the wastewater treatment plant from sea level rise</li>\n            <li>Collaboration with other Solano County entities to create a Regional Shoreline Adaptation Plan</li>\n            </ul>\n            <b>Opportunities</b>\n            <ul>\n                <li>Incorporate wetland restoration and nature-based solutions in shoreline protections wherever possible.</li>\n                <li>Establish resilient design standards – such as requiring new buildings to be elevated above projected flood levels – to ensure homes, businesses, and infrastructure are resilient to future flood risk.</li>\n            </ul>"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.153893, 38.052147
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Berkeley",
+        "link": "https://savesfbay.org/wp-content/uploads/2026/06/Berkeley-Snapshot.pdf",
+        "score": null,
+        "description": "<b>Key Vulnerabilities</b>\n            <ul>\n                <li>Inundation from sea level rise and groundwater rise along the Berkeley shoreline inland to San Pablo Ave</li>\n                <li>Increased stormwater runoff will back up storm drains, causing roadways and sidewalks to flood</li>\n                </ul>\n            <b>Highlights</b>\n            <ul>\n                <li>Berkeley is working on their shoreline adaptation in conjunction with the cities of Emeryville, Albany, and Oakland</li>\n            </ul>\n            <b>Opportunities</b>\n            <ul>\n                <li>Implement proposed policy goals in the Stormwater Master Plan Update.</li>\n                <li>Implementing a Sea Level Rise Overlay Zone in an appropriate area would ensure infrastructure is built to be resilient to flooding.</li>\n            </ul>"
+      },
+      "geometry": {
+        "coordinates": [
+          	-122.272778, 37.871667
         ],
         "type": "Point"
       }
@@ -99,6 +189,36 @@
     {
       "type": "Feature",
       "properties": {
+        "title": "Foster City",
+        "link": "https://savesfbay.org/wp-content/uploads/2026/06/FosterCity-Snapshot.pdf",
+        "score": null,
+        "description": "<b>Key Vulnerabilities</b>\n            <ul>\n                <li>Groundwater rise will create new flood risks throughout the city</li>\n                <li>Sea level rise conditions over 3ft will top the recently raised levee surrounding the city</li>\n            </ul>\n            <b>Highlights</b>\n            <ul>\n                <li>Foster City's support of the San Mateo County Flood and Sea Level Rise Resiliency District, OneShoreline</li>\n            </ul>\n            <b>Opportunities</b>\n            <ul>\n                <li>Create a Storm Drain Master Plan to ensure storm drains can function under increased precipitation and higher groundwater level conditions.</li>\n                <li>Have standardized development codes for rising groundwater conditions.</li>\n            </ul>"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.266389, 37.551389
+          ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Fremont",
+        "link": "https://savesfbay.org/wp-content/uploads/2026/06/Fremont-Snapshot.pdf",
+        "score": null,
+        "description": "<b>Key Vulnerabilities</b>\n            <ul>\n                <li>Flooding along the shoreline in Ardenwood Technology Park, the Coyote Hills/Ardenwood neighborhoods, and the Baylands Industrial Area</li>\n                <li>Localized flooding along creeks and near the base of the hills</li>\n            </ul>\n            <b>Highlights</b>\n            <ul>\n                <li>The Coyote Hills Restoration Project preserved over 300 acres of tidal marsh habitat</li>\n            </ul>\n            <b>Opportunities</b>\n            <ul>\n                <li>Collaborate with Union City and Newark to create a Regional Shoreline Adaptation Plan.</li>\n                <li>Create a Storm Drain Master Plan that ensures that the storm drain system has the capacity to function under future flood conditions.</li>\n            </ul>"
+      },
+      "geometry": {
+        "coordinates": [
+          	-121.988300, 37.548600
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "title": "Hayward",
         "link": "https://savesfbay.org/wp-content/uploads/2026/03/Hayward_Snapshot.pdf",
         "score": null,
@@ -131,6 +251,51 @@
     {
       "type": "Feature",
       "properties": {
+        "title": "Larkspur",
+        "link": "https://savesfbay.org/wp-content/uploads/2026/06/Larkspur-Snapshot.pdf",
+        "score": null,
+        "description": "<b>Key Vulnerabilities</b>\n            <ul>\n                <li>Flooding of residential areas along Corte Madera Creek, including some of the county’s limited affordable housing</li>\n                <li>Movement of contamination from toxic sites along the shoreline</li>\n            </ul>\n            <b>Highlights</b>\n            <ul>\n                <li>Larkspur has designated Shoreline/Wetland Conservation Areas that are preserved for habitat and recreation</li>\n            </ul>\n            <b>Opportunities</b>\n            <ul>\n                <li>Partner with Marin County and neighboring cities to create a Regional Shoreline Adaptation Plan.</li>\n                <li>Explore policies that would allow homeowners to raise their homes above the projected sea level rise flood levels.</li>\n            </ul>"
+      },
+      "geometry": {
+        "coordinates": [
+          	-122.535278, 37.934167
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Martinez",
+        "link": "https://savesfbay.org/wp-content/uploads/2026/06/Martinez-Snapshot.pdf",
+        "score": null,
+        "description": "<b>Key Vulnerabilities</b>\n            <ul>\n                <li>Sea level rise could inundate the public wastewater treatment plant</li>\n                <li>Transportation infrastructure near the shoreline is at risk like the Amtrak station and Bay Trail</li>\n            </ul>\n            <b>Highlights</b>\n            <ul>\n                <li>Martinez participates in the Resilient Shoreline Coalition with Contra Costa County and other shoreline cities</li>\n            </ul>\n            <b>Opportunities</b>\n            <ul>\n                <li>Expand green infrastructure requirements to the public right of way for conditions of approval in new developments and alignment with a Storm Drain Master Plan.</li>\n                <li>Implement a Sea Level Rise Overlay Zone where flooding will occur to ensure resilient infrastructure.</li>\n            </ul>"
+      },
+      "geometry": {
+        "coordinates": [
+          	-122.134167, 38.019444
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Menlo Park",
+        "link": "https://savesfbay.org/wp-content/uploads/2026/06/MenloPark_Snapshot.pdf",
+        "score": null,
+        "description": "<b>Key Vulnerabilities</b>\n            <ul>\n                <li>Flooding along San Francisquito Creek and in the Belle Haven and Bayfront neighborhoods</li>\n                <li>Movement of contamination from toxic sites along the shoreline into surrounding communities</li>\n            </ul>\n            <b>Highlights</b>\n            <ul>\n                <li>The SAFER Bay Project, designed by the San Francisquito Creek JPA, will guard against 3.5 feet of sea level rise</li>\n            </ul>\n            <b>Opportunities</b>\n            <ul>\n                <li>Establish building design standards in at-risk areas to ensure new buildings are flood-resilient and to protect renters and homeowners in disadvantaged communities</li>\n                <li>Work with community-based organizations and regulatory agencies to support the cleanup of contaminated sites. Community groups like PACT, YUCA, and Climate Resilient Communities are actively calling for the cleanup of specific sites due to the threat of future flooding</li>\n            </ul>"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.183333, 37.452778
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "title": "Mill Valley",
         "link": "https://savesfbay.org/wp-content/uploads/2026/03/MillValley-Snapshot.pdf",
         "score": null,
@@ -140,6 +305,51 @@
         "coordinates": [
           -122.547508,
           37.905573
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Millbrae",
+        "link": "https://savesfbay.org/wp-content/uploads/2026/06/Millbrae-Snapshot.pdf",
+        "score": null,
+        "description": "<b>Key Vulnerabilities</b>\n            <ul>\n                <li>Flooding in areas east of the BART tracks, including residential neighborhoods, roads, and the wastewater treatment plant</li>\n                <li>Extreme storms may overwhelm the storm drain system</li>\n            </ul>\n            <b>Highlights</b>\n            <ul>\n                <li>Millbrae partnered with OneShoreline and Burlingame to design a shoreline resilience project to protect the city from sea level rise</li>\n            <li>Millbrae has created several multi-benefit green street projects that improve road safety while treating stormwater runoff and reducing flooding</li>\n            </ul>\n            <b>Opportunities</b>\n            <ul>\n                <li>Establish resilient design standards – such as requiring new buildings to be elevated above projected flood levels – to ensure homes, businesses, and infrastructure are resilient to future flood risk.</li>\n                <li>Incorporate nature-based solutions into the Millbrae and Burlingame Shoreline Resilience Project as much as possible.</li>\n            </ul>"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.401389, 37.600833
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Mountain View",
+        "link": "https://savesfbay.org/wp-content/uploads/2026/06/MountainView-Snapshot.pdf",
+        "score": null,
+        "description": "<b>Key Vulnerabilities</b>\n            <ul>\n                <li>Flooding north of Highway 101, including the North Bayshore Area</li>\n            </ul>\n            <b>Highlights</b>\n            <ul>\n                <li>Mountain View’s Sea Level Rise Capital Improvement Plan identifies 12 sea level rise resilience projects to protect from flooding along the shoreline and creeks</li>\n            <li>A former salt pond adjacent to Mountain View’s Shoreline Park was recently restored to wetland habitat</li>\n            </ul>\n            <b>Opportunities</b>\n            <ul>\n                <li>Establish resilient design standards – such as requiring new buildings to be elevated above projected flood levels – to ensure homes, businesses, and infrastructure are resilient to future flood risk.</li>\n                <li>Update the city’s flood resilience project designs to accommodate 6.6 feet of sea level rise and groundwater rise.</li>\n            </ul>"
+      },
+      "geometry": {
+        "coordinates": [
+          	-122.083889, 37.386111
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Newark",
+        "link": "https://savesfbay.org/wp-content/uploads/2026/06/Newark-Snapshot.pdf",
+        "score": null,
+        "description": "<b>Key Vulnerabilities</b>\n            <ul>\n                <li>Flooding of wetlands and neighborhoods along the shoreline</li>\n                <li>Localized flooding on inland streets during extreme storms</li>\n            </ul>\n            <b>Highlights</b>\n            <ul>\n                <li>Newark’s Flood Modeling Report creates a holistic understanding of flood risk and the combined effects of sea level rise, groundwater rise, and climate-driven storms</li>\n            </ul>\n            <b>Opportunities</b>\n            <ul>\n                <li>Newark should preserve and restore its wetlands and prioritize transferring Area 4 to the Don Edwards National Wildlife Refuge.</li>\n                <li>Newark should collaborate with Union City and Fremont to create a Regional Shoreline Resilience Plan.</li>\n            </ul>"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.033333, 37.533333
         ],
         "type": "Point"
       }
@@ -195,6 +405,21 @@
     {
       "type": "Feature",
       "properties": {
+        "title": "Petaluma",
+        "link": "https://savesfbay.org/wp-content/uploads/2026/06/Petaluma-Snapshots.pdf",
+        "score": null,
+        "description": "<b>Key Vulnerabilities</b>\n            <ul>\n                <li>Overflow of the Petaluma River caused by sea level rise will flood neighborhoods like Historic Downtown Petaluma and wildlife habitat like the River Baylands</li>\n                <li>Larger King Tides will flood southern portions of southern Petaluma, including sections of Lakeview Street</li>\n            </ul>\n            <b>Highlights</b>\n            <ul>\n                <li>Petaluma’s General Plan update will require planning for future flooding conditions</li>\n            </ul>\n            <b>Opportunities</b>\n            <ul>\n                <li>Planning for groundwater rise should be incorporated into future flood planning along with sea level rise and stormwater flooding.</li>\n                <li>A Green Infrastructure Plan would help prevent stormwater flooding and provide co-benefits.</li>\n            </ul>"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.631389, 38.245833
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "title": "Pinole",
         "link": "https://savesfbay.org/wp-content/uploads/2026/03/Pinole-Snapshot.pdf",
         "score": null,
@@ -227,6 +452,36 @@
     {
       "type": "Feature",
       "properties": {
+        "title": "Richmond",
+        "link": "https://savesfbay.org/wp-content/uploads/2026/06/Richmond-Snapshot.pdf",
+        "score": null,
+        "description": "<b>Key Vulnerabilities</b>\n            <ul>\n                <li>Flooding of neighborhoods along Wildcat Creek, San Pablo Creek, and the shoreline, including low-income communities such as the Coronado and Santa Fe neighborhoods</li>\n                <li>Movement of contaminants from toxic sites into surrounding communities</li>\n            </ul>\n            <b>Highlights</b>\n            <ul>\n                <li>Richmond has begun working on a Sea Level Rise Adaptation and Resiliency Plan</li>\n            <li>The Richmond Bay Specific Plan requires the development area to be raised 1 foot above the projected flood level at 3 feet of sea level rise</li>\n            </ul>\n            <b>Opportunities</b>\n            <ul>\n                <li>Establish design standards – such as requiring new buildings to be elevated above projected flood levels – to ensure new developments and infrastructure are resilient to future flood risk.</li>\n                <li>Work with community organizations and regulatory agencies to support the cleanup of contaminated sites that may pose a health risk when groundwater levels rise.</li>\n            </ul>"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.347778, 37.935833
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "San Bruno",
+        "link": "https://savesfbay.org/wp-content/uploads/2026/06/SanBruno-Snapshot.pdf",
+        "score": null,
+        "description": "<b>Key Vulnerabilities</b>\n            <ul>\n                <li>Flooding in residential areas east of the Caltrain line between 1st and 7th streets</li>\n            </ul>\n            <b>Highlights</b>\n            <ul>\n                <li>San Bruno is updating its Storm Drainage Master Plan</li>\n            <li>The San Bruno Creek Flood Zone Project will engage community members to design a nature-based flood resilience project for San Bruno Creek</li>\n            </ul>\n            <b>Opportunities</b>\n            <ul>\n                <li>Establish design standards – such as requiring new buildings to be elevated above projected flood levels – to ensure new developments and infrastructure are resilient to future flood risk.</li>\n                <li>As part of the Storm Drainage Master Plan update, study where flooding will intensify due to more extreme rainfall resulting from climate change.</li>\n            </ul>"
+      },
+      "geometry": {
+        "coordinates": [
+          	-122.415000, 37.625000
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "title": "San Carlos",
         "link": "https://savesfbay.org/wp-content/uploads/2026/03/SanCarlos_Snapshot.pdf",
         "score": null,
@@ -246,7 +501,7 @@
         "title": "San Francisco",
         "link": "https://savesfbay.org/wp-content/uploads/2026/04/SanFrancisco-Snapshot.pdf",
         "score": null,
-        "description": "<b>Key Vulnerabilities</b>\n            <ul>\n                <li>Flooding along the Embarcadero and low-lying creek-adjacent neighborhoods like Mission Bay and Bayview-Hunters Point</li>\n                </ul>\n            <b>Highlights</b>\n            <ul>\n                <li>Shoreline resilience and open space projects like the India Basin Waterfront Park Project</li>\n            </ul>\n            <b>Opportunities</b>\n            <ul>\n                <li>Implementing a Sea Level Rise Overlay Zone to ensure infrastructure is built to be resilient to flooding</li>\n                <li>Establish a 100-foot buffer along creek banks for flood protection</li>\n            </ul>"
+        "description": "<b>Key Vulnerabilities</b>\n            <ul>\n                <li>Flooding along the Embarcadero and low-lying creek-adjacent neighborhoods like Mission Bay and Bayview-Hunters Point</li>\n                </ul>\n            <b>Highlights</b>\n            <ul>\n                <li>Shoreline resilience and open space projects like the India Basin Waterfront Park Project</li>\n            </ul>\n            <b>Opportunities</b>\n            <ul>\n                <li>Implementing a Sea Level Rise Overlay Zone to ensure infrastructure is built to be resilient to flooding.</li>\n                <li>Establish a 100-foot buffer along creek banks for flood protection.</li>\n            </ul>"
       },
       "geometry": {
         "coordinates": [
@@ -276,6 +531,21 @@
     {
       "type": "Feature",
       "properties": {
+        "title": "San Leandro",
+        "link": "https://savesfbay.org/wp-content/uploads/2026/06/SanLeandro-Snapshot.pdf",
+        "score": null,
+        "description": "<b>Key Vulnerabilities</b>\n            <ul>\n                <li>Flooding along the shoreline and San Leandro Creek, impacting a wastewater treatment plant, parks, railroad lines, and roads</li>\n                <li>Flooding and erosion of wetlands, beaches, and the Bay Trail</li>\n            </ul>\n            <b>Opportunities</b>\n            <ul>\n                <li>Establish design standards – such as requiring new buildings to be elevated above projected flood levels – to ensure new developments and infrastructure are resilient to future flood risk.</li>\n                <li>Update the Storm Drain Master Plan to account for the compounding impacts of sea level rise, groundwater rise, and more extreme storms.</li>\n            </ul>"
+      },
+      "geometry": {
+        "coordinates": [
+          	-122.156111, 37.725000
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "title": "San Mateo",
         "link": "https://savesfbay.org/wp-content/uploads/2026/03/SanMateo_Snapshot.pdf",
         "score": null,
@@ -285,6 +555,21 @@
         "coordinates": [
           -122.325287,
           37.562984
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "San Rafael",
+        "link": "https://savesfbay.org/wp-content/uploads/2026/06/SanRafael-Snapshot.pdf",
+        "score": null,
+        "description": "<b>Key Vulnerabilities</b>\n            <ul>\n                <li>Flooding along the shoreline and San Rafael Creek, including severe flooding in the Canal area, a densely populated majority-Latino neighborhood</li>\n            </ul>\n            <b>Highlights</b>\n            <ul>\n                <li>The Nuestro Canal, Nuestro Futuro project, led by the community-based organization Canal Alliance, will identify community-supported flood resilience strategies for the Canal neighborhood</li>\n            </ul>\n            <b>Opportunities</b>\n            <ul>\n                <li>Create a Storm Drain Master Plan that ensures the storm drain system is prepared to accommodate the compounding impacts of sea level rise, groundwater rise, and more extreme storms.</li>\n                <li>Establish design standards – such as requiring new buildings to be elevated above projected flood levels – to ensure new developments and infrastructure are resilient to future flood risk.</li>\n            </ul>"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.531111, 37.973611
         ],
         "type": "Point"
       }
@@ -340,6 +625,21 @@
     {
       "type": "Feature",
       "properties": {
+        "title": "Suisun City",
+        "link": "https://savesfbay.org/wp-content/uploads/2026/06/Suisun-Snapshot.pdf",
+        "score": null,
+        "description": "<b>Key Vulnerabilities</b>\n            <ul>\n                <li>Flooding in the Downtown Waterfront Area, some residential areas south of Highway 12, and some areas along Laurel Creek and Pennsylvania Avenue Creek</li>\n            </ul>\n            <b>Highlights</b>\n            <ul>\n                <li>A 2022 Community Resilience Building Workshop identified the city’s top climate vulnerabilities and engaged the community to identify actions to address them</li>\n            <li>Suisun City will participate in Solano County’s multijurisdictional Regional Shoreline Adaptation Plan</li>\n            </ul>\n            <b>Opportunities</b>\n            <ul>\n                <li>Incorporate nature-based solutions into the city’s flood protections as much as possible, and preserve the wetlands that border the city.</li>\n                <li>Establish design standards – such as requiring new buildings to be elevated above projected flood levels – to ensure new developments and infrastructure are resilient to future flood risk.</li>\n            </ul>"
+      },
+      "geometry": {
+        "coordinates": [
+          	-122.016944, 38.245000
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "title": "Sunnyvale",
         "link": "https://savesfbay.org/wp-content/uploads/2026/03/Sunnyvale_Snapshot.pdf",
         "score": null,
@@ -381,6 +681,21 @@
         "coordinates": [
           -122.021111,
           37.588791
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Vallejo",
+        "link": "https://savesfbay.org/wp-content/uploads/2026/06/Vallejo-Snapshot.pdf",
+        "score": null,
+        "description": "<b>Key Vulnerabilities</b>\n            <ul>\n                <li>Flooding of the White Slough, South Vallejo, and Mare Island neighborhoods which will impact residential and commercial areas, unhoused residents, and the wastewater treatment plant</li>\n            </ul>\n            <b>Highlights</b>\n            <ul>\n                <li>Vallejo will participate in Solano County’s multijurisdictional Regional Shoreline Adaptation Plan</li>\n            <li>Developments in areas vulnerable to 55 inches of sea level rise are required to conduct an environmental review and identify flood mitigation measures</li>\n            </ul>\n            <b>Opportunities</b>\n            <ul>\n                <li>Nature-based flood protections and wetland preservation should be incorporated into the ongoing plans to redevelop Mare Island.</li>\n                <li>Vallejo should strengthen its existing flood resilience standards to require all new developments vulnerable to 6.6 feet of sea level rise to incorporate flood-resilient measures such as elevating the first flood above projected flood levels.</li>\n            </ul>"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.235833, 38.113056
         ],
         "type": "Point"
       }
