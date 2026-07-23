@@ -3,6 +3,7 @@
     {
       "type": "Feature",
       "properties": {
+        "snapshotType": "city",
         "title": "Alameda",
         "link": "https://savesfbay.org/wp-content/uploads/2026/03/Alameda-Snapshot-1.pdf",
         "score": null,
@@ -19,6 +20,7 @@
     {
       "type": "Feature",
       "properties": {
+        "snapshotType": "city",
         "title": "Albany",
         "link": "https://savesfbay.org/wp-content/uploads/2026/06/Albany-Snapshot.pdf",
         "score": null,
@@ -34,6 +36,7 @@
     {
       "type": "Feature",
       "properties": {
+        "snapshotType": "city",
         "title": "American Canyon",
         "link": "https://savesfbay.org/wp-content/uploads/2026/06/AmericanCanyon-Snapshot.pdf",
         "score": null,
@@ -49,6 +52,7 @@
     {
       "type": "Feature",
       "properties": {
+        "snapshotType": "city",
         "title": "Belmont",
         "link": "https://savesfbay.org/wp-content/uploads/2026/06/Belmont-Snapshot.pdf",
         "score": null,
@@ -64,6 +68,7 @@
     {
       "type": "Feature",
       "properties": {
+        "snapshotType": "city",
         "title": "Belvedere",
         "link": "https://savesfbay.org/wp-content/uploads/2026/06/Belvedere-Snapshot.pdf",
         "score": null,
@@ -79,6 +84,7 @@
     {
       "type": "Feature",
       "properties": {
+        "snapshotType": "city",
         "title": "Benicia",
         "link": "https://savesfbay.org/wp-content/uploads/2026/06/Benicia-Snapshot.pdf",
         "score": null,
@@ -94,6 +100,7 @@
     {
       "type": "Feature",
       "properties": {
+        "snapshotType": "city",
         "title": "Berkeley",
         "link": "https://savesfbay.org/wp-content/uploads/2026/06/Berkeley-Snapshot.pdf",
         "score": null,
@@ -109,6 +116,7 @@
     {
       "type": "Feature",
       "properties": {
+        "snapshotType": "city",
         "title": "Brisbane",
         "link": "https://savesfbay.org/wp-content/uploads/2026/03/Brisbane_Snapshot.pdf",
         "score": null,
@@ -125,6 +133,7 @@
     {
       "type": "Feature",
       "properties": {
+        "snapshotType": "city",
         "title": "Burlingame",
         "link": "https://savesfbay.org/wp-content/uploads/2026/03/Burlingame_Snapshot.pdf",
         "score": null,
@@ -141,6 +150,7 @@
     {
       "type": "Feature",
       "properties": {
+        "snapshotType": "city",
         "title": "Corte Madera",
         "link": "https://savesfbay.org/wp-content/uploads/2026/03/CorteMadera-Snapshot.pdf",
         "score": null,
@@ -157,6 +167,7 @@
     {
       "type": "Feature",
       "properties": {
+        "snapshotType": "city",
         "title": "East Palo Alto",
         "link": "https://savesfbay.org/wp-content/uploads/2026/03/EPA_Snapshot.pdf",
         "score": null,
@@ -173,6 +184,7 @@
     {
       "type": "Feature",
       "properties": {
+        "snapshotType": "city",
         "title": "Emeryville",
         "link": "https://savesfbay.org/wp-content/uploads/2026/03/Emeryville-Snapshot-1.pdf",
         "score": null,
@@ -189,6 +201,7 @@
     {
       "type": "Feature",
       "properties": {
+        "snapshotType": "city",
         "title": "Foster City",
         "link": "https://savesfbay.org/wp-content/uploads/2026/06/FosterCity-Snapshot.pdf",
         "score": null,
@@ -204,6 +217,7 @@
     {
       "type": "Feature",
       "properties": {
+        "snapshotType": "city",
         "title": "Fremont",
         "link": "https://savesfbay.org/wp-content/uploads/2026/06/Fremont-Snapshot.pdf",
         "score": null,
@@ -219,6 +233,7 @@
     {
       "type": "Feature",
       "properties": {
+        "snapshotType": "city",
         "title": "Hayward",
         "link": "https://savesfbay.org/wp-content/uploads/2026/03/Hayward_Snapshot.pdf",
         "score": null,
@@ -235,6 +250,7 @@
     {
       "type": "Feature",
       "properties": {
+        "snapshotType": "city",
         "title": "Hercules",
         "link": "https://savesfbay.org/wp-content/uploads/2026/03/Hercules-Snapshot.pdf",
         "score": null,
@@ -251,6 +267,7 @@
     {
       "type": "Feature",
       "properties": {
+        "snapshotType": "city",
         "title": "Larkspur",
         "link": "https://savesfbay.org/wp-content/uploads/2026/06/Larkspur-Snapshot.pdf",
         "score": null,
@@ -266,6 +283,7 @@
     {
       "type": "Feature",
       "properties": {
+        "snapshotType": "city",
         "title": "Martinez",
         "link": "https://savesfbay.org/wp-content/uploads/2026/06/Martinez-Snapshot.pdf",
         "score": null,
@@ -281,6 +299,7 @@
     {
       "type": "Feature",
       "properties": {
+        "snapshotType": "city",
         "title": "Menlo Park",
         "link": "https://savesfbay.org/wp-content/uploads/2026/06/MenloPark_Snapshot.pdf",
         "score": null,
@@ -296,6 +315,7 @@
     {
       "type": "Feature",
       "properties": {
+        "snapshotType": "city",
         "title": "Mill Valley",
         "link": "https://savesfbay.org/wp-content/uploads/2026/03/MillValley-Snapshot.pdf",
         "score": null,
@@ -312,6 +332,7 @@
     {
       "type": "Feature",
       "properties": {
+        "snapshotType": "city",
         "title": "Millbrae",
         "link": "https://savesfbay.org/wp-content/uploads/2026/06/Millbrae-Snapshot.pdf",
         "score": null,
@@ -327,6 +348,7 @@
     {
       "type": "Feature",
       "properties": {
+        "snapshotType": "city",
         "title": "Mountain View",
         "link": "https://savesfbay.org/wp-content/uploads/2026/06/MountainView-Snapshot.pdf",
         "score": null,
@@ -342,6 +364,7 @@
     {
       "type": "Feature",
       "properties": {
+        "snapshotType": "city",
         "title": "Newark",
         "link": "https://savesfbay.org/wp-content/uploads/2026/06/Newark-Snapshot.pdf",
         "score": null,
@@ -357,6 +380,7 @@
     {
       "type": "Feature",
       "properties": {
+        "snapshotType": "city",
         "title": "Novato",
         "link": "https://savesfbay.org/wp-content/uploads/2026/03/Novato_Snapshot.pdf",
         "score": null,
@@ -373,6 +397,7 @@
     {
       "type": "Feature",
       "properties": {
+        "snapshotType": "city",
         "title": "Oakland",
         "link": "https://savesfbay.org/wp-content/uploads/2026/03/Oakland-Snapshot.pdf",
         "score": null,
@@ -389,6 +414,7 @@
     {
       "type": "Feature",
       "properties": {
+        "snapshotType": "city",
         "title": "Palo Alto",
         "link": "https://savesfbay.org/wp-content/uploads/2026/03/PaloAlto-Snapshot.pdf",
         "score": null,
@@ -405,6 +431,7 @@
     {
       "type": "Feature",
       "properties": {
+        "snapshotType": "city",
         "title": "Petaluma",
         "link": "https://savesfbay.org/wp-content/uploads/2026/06/Petaluma-Snapshots.pdf",
         "score": null,
@@ -420,6 +447,7 @@
     {
       "type": "Feature",
       "properties": {
+        "snapshotType": "city",
         "title": "Pinole",
         "link": "https://savesfbay.org/wp-content/uploads/2026/03/Pinole-Snapshot.pdf",
         "score": null,
@@ -436,6 +464,7 @@
     {
       "type": "Feature",
       "properties": {
+        "snapshotType": "city",
         "title": "Redwood City",
         "link": " https://savesfbay.org/wp-content/uploads/2026/03/RedwoodCity_Snapshot-1.pdf",
         "score": null,
@@ -452,6 +481,7 @@
     {
       "type": "Feature",
       "properties": {
+        "snapshotType": "city",
         "title": "Richmond",
         "link": "https://savesfbay.org/wp-content/uploads/2026/06/Richmond-Snapshot.pdf",
         "score": null,
@@ -467,6 +497,7 @@
     {
       "type": "Feature",
       "properties": {
+        "snapshotType": "city",
         "title": "San Bruno",
         "link": "https://savesfbay.org/wp-content/uploads/2026/06/SanBruno-Snapshot.pdf",
         "score": null,
@@ -482,6 +513,7 @@
     {
       "type": "Feature",
       "properties": {
+        "snapshotType": "city",
         "title": "San Carlos",
         "link": "https://savesfbay.org/wp-content/uploads/2026/03/SanCarlos_Snapshot.pdf",
         "score": null,
@@ -498,6 +530,7 @@
     {
       "type": "Feature",
       "properties": {
+        "snapshotType": "city",
         "title": "San Francisco",
         "link": "https://savesfbay.org/wp-content/uploads/2026/04/SanFrancisco-Snapshot.pdf",
         "score": null,
@@ -515,6 +548,7 @@
     {
       "type": "Feature",
       "properties": {
+        "snapshotType": "city",
         "title": "San Jose",
         "link": "https://savesfbay.org/wp-content/uploads/2026/03/SanJose-Snapshot.pdf",
         "score": null,
@@ -531,6 +565,7 @@
     {
       "type": "Feature",
       "properties": {
+        "snapshotType": "city",
         "title": "San Leandro",
         "link": "https://savesfbay.org/wp-content/uploads/2026/06/SanLeandro-Snapshot.pdf",
         "score": null,
@@ -546,6 +581,7 @@
     {
       "type": "Feature",
       "properties": {
+        "snapshotType": "city",
         "title": "San Mateo",
         "link": "https://savesfbay.org/wp-content/uploads/2026/03/SanMateo_Snapshot.pdf",
         "score": null,
@@ -562,6 +598,7 @@
     {
       "type": "Feature",
       "properties": {
+        "snapshotType": "city",
         "title": "San Rafael",
         "link": "https://savesfbay.org/wp-content/uploads/2026/06/SanRafael-Snapshot.pdf",
         "score": null,
@@ -577,6 +614,7 @@
     {
       "type": "Feature",
       "properties": {
+        "snapshotType": "city",
         "title": "Santa Clara",
         "link": "https://savesfbay.org/wp-content/uploads/2026/03/SantaClara_Snapshot.pdf",
         "score": null,
@@ -593,6 +631,7 @@
     {
       "type": "Feature",
       "properties": {
+        "snapshotType": "city",
         "title": "Sausalito",
         "link": "https://savesfbay.org/wp-content/uploads/2026/03/Sausalito-Snapshot.pdf",
         "score": null,
@@ -609,6 +648,7 @@
     {
       "type": "Feature",
       "properties": {
+        "snapshotType": "city",
         "title": "South San Francisco",
         "link": "https://savesfbay.org/wp-content/uploads/2026/03/SSF-Snapshot.pdf",
         "score": null,
@@ -625,6 +665,7 @@
     {
       "type": "Feature",
       "properties": {
+        "snapshotType": "city",
         "title": "Suisun City",
         "link": "https://savesfbay.org/wp-content/uploads/2026/06/Suisun-Snapshot.pdf",
         "score": null,
@@ -640,6 +681,7 @@
     {
       "type": "Feature",
       "properties": {
+        "snapshotType": "city",
         "title": "Sunnyvale",
         "link": "https://savesfbay.org/wp-content/uploads/2026/03/Sunnyvale_Snapshot.pdf",
         "score": null,
@@ -656,6 +698,7 @@
     {
       "type": "Feature",
       "properties": {
+        "snapshotType": "city",
         "title": "Tiburon",
         "link": "https://savesfbay.org/wp-content/uploads/2026/03/Tiburon_Snapshot.pdf",
         "score": null,
@@ -672,6 +715,7 @@
     {
       "type": "Feature",
       "properties": {
+        "snapshotType": "city",
         "title": "Union City",
         "link": "https://savesfbay.org/wp-content/uploads/2026/03/UnionCity_Snapshot.pdf",
         "score": null,
@@ -688,6 +732,7 @@
     {
       "type": "Feature",
       "properties": {
+        "snapshotType": "city",
         "title": "Vallejo",
         "link": "https://savesfbay.org/wp-content/uploads/2026/06/Vallejo-Snapshot.pdf",
         "score": null,
@@ -696,6 +741,134 @@
       "geometry": {
         "coordinates": [
           -122.235833, 38.113056
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "snapshotType": "county",
+        "title": "Alameda County",
+        "link": "https://savesfbay.org/wp-content/uploads/2026/07/Alameda-County-Snapshot.pdf",
+        "score": null,
+        "description": "<b>Key Vulnerabilities</b>\n            <ul>\n                <li>Flooding from sea level rise and groundwater rise, including in the unincorporated community of San Lorenzo</li>\n                <li>Inland flooding from stormwater in communities like Castro Valley</li>\n            </ul>\n            <b>Highlights</b>\n            <ul>\n                <li>The Eden Landing wetland restoration project will restore 6,400 acres of tidal marsh for flood protection and habitat creation</li>\n            </ul>\n            <b>Opportunities</b>\n            <ul>\n                <li>Support and collaborate with cities in their shoreline adaptation plan efforts</li>\n                <li>Study the flood risk implications of future rainfall projections to ensure residents and infrastructure are protected</li>\n            </ul>"
+      },
+      "geometry": {
+        "coordinates": [
+          -121.912488, 37.647139
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "snapshotType": "county",
+        "title": "Contra Costa County",
+        "link": "https://savesfbay.org/wp-content/uploads/2026/07/Contra-Costa-County-Snapshot.pdf",
+        "score": null,
+        "description": "<b>Key Vulnerabilities</b>\n            <ul>\n                <li>Groundwater rise in shoreline communities threatens to inundate contaminated sites, posing a public health risk</li>\n                <li>Sea level rise threatens shoreline areas like the Crocket/Carquinez Bridge landing and unincorporated areas like the Rodeo and Bay Pint neighborhoods</li>\n            </ul>\n            <b>Highlights</b>\n            <ul>\n                <li>Contra Costa County is creating a collaborative shoreline resilience plan to protect city and county assets and residents</li>\n            </ul>\n            <b>Opportunities</b>\n            <ul>\n                <li>Study the impacts of flooding on contaminated sites around the county to protect residents from harmful health outcomes</li>\n                <li>Establish building design standards in at-risk areas to ensure new buildings are flood-resilient</li>\n            </ul>"
+      },
+      "geometry": {
+        "coordinates": [
+          -121.951543, 37.919479
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "snapshotType": "county",
+        "title": "Marin County",
+        "link": "https://savesfbay.org/wp-content/uploads/2026/07/Marin-County-Snapshot.pdf",
+        "score": null,
+        "description": "<b>Key Vulnerabilities</b>\n            <ul>\n                <li>Flooding of critical transportation routes such as Highway 37 and the Manzanita Interchange of US Highways 101 and 1</li>\n                <li>Flooding of 12,000 buildings, several wastewater treatment plants, and ecological assets like the Novato Baylands and Bothin Marsh</li>\n            </ul>\n            <b>Highlights</b>\n            <ul>\n                <li>The County hired a Chief Climate Officer, a new position tasked with advancing the county’s sea level rise response</li>\n            <li>The Evolving Shorelines project will restore Bothin Marsh to help it adapt to sea level rise and protect inland assets from flooding</li>\n            </ul>\n            <b>Opportunities</b>\n            <ul>\n                <li>Provide countywide coordination among cities and agencies for sea level rise resilience planning</li>\n                <li>Create stormwater plans for the county’s unincorporated urban areas to prepare them for future storm conditions</li>\n            </ul>"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.746396, 38.051367
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "snapshotType": "county",
+        "title": "Napa County",
+        "link": "https://savesfbay.org/wp-content/uploads/2026/07/Napa-County-Snapshot.pdf",
+        "score": null,
+        "description": "<b>Key Vulnerabilities</b>\n            <ul>\n                <li>Environmental assets like the American Canyon Wetlands could be lost to sea level rise and groundwater rise</li>\n                <li>Unincorporated communities like Cuttings Wharf, Brazos, and Buchli are all at risk of inundation</li>\n            </ul>\n            <b>Highlights</b>\n            <ul>\n                <li>Napa County is coordinating with the city of American Canyon on a Shoreline Adaptation Plan</li>\n            </ul>\n            <b>Opportunities</b>\n            <ul>\n                <li>Establish building design standards in at-risk areas to ensure new buildings are flood-resilient</li>\n                <li>Study how future rainfall projections impact flood risk and ensure that the storm drain system can accommodate more intense storms</li>\n            </ul>"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.325904, 38.507100
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "snapshotType": "county",
+        "title": "San Mateo County",
+        "link": "https://savesfbay.org/wp-content/uploads/2026/07/San-Mateo-County-Snapshot.pdf",
+        "score": null,
+        "description": "<b>Key Vulnerabilities</b>\n            <ul>\n                <li>Sea level rise, groundwater rise, and liquefaction threaten areas that were built on top of low-lying bay fill, such Foster City and Redwood Shores</li>\n                <li>Public assets including 34 schools, 2 airports and 5 wastewater treatment plants are vulnerable to sea level rise</li>\n            </ul>\n            <b>Highlights</b>\n            <ul>\n                <li>San Mateo County’s Sea Level Rise Resiliency Planning District (OneShoreline) is created flood resilience planning guidance for the cities and is coordinating cohesive flood protections for the Bay shoreline</li>\n            </ul>\n            <b>Opportunities</b>\n            <ul>\n                <li>As rising sea levels push the groundwater table higher, contaminated sites may be flooded from below and allow vaporized toxins to enter buildings through sewer pipes. OneShoreline should create guidance for upgrading sewer infrastructure to address this risk</li>\n                <li>OneShoreline should prioritize nature-based solutions in sea level rise adaptation projects</li>\n            </ul>"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.371546, 37.414672
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "snapshotType": "county",
+        "title": "Santa Clara County",
+        "link": "https://savesfbay.org/wp-content/uploads/2026/07/Santa-Clara-County-Snapshot.pdf",
+        "score": null,
+        "description": "<b>Key Vulnerabilities</b>\n            <ul>\n                <li>Flooding along the shoreline in northern Santa Clara County, including the unincorporated area of Moffett Field</li>\n                <li>Flooding along Coyote Creek, Calabasas Creek, Guadalupe River, and other creeks as extreme storms increase</li>\n            </ul>\n            <b>Highlights</b>\n            <ul>\n                <li>Santa Clara County is coordinating with all of its shoreline cities to create a countywide Regional Shoreline Adaptation Plan</li>\n            <li>The South Bay Shoreline Project will combine wetland restoration with FEMA-certified levees to protect against sea level rise</li>\n            </ul>\n            <b>Opportunities</b>\n            <ul>\n                <li>Identify contaminated sites that are at risk of flooding and work with property owners to implement climate adaptation plans to protect community health</li>\n                <li>Pursue funding and implementing green stormwater infrastructure projects identified as part of the county’s ongoing “Healthy Watersheds, Thriving Communities” initiative</li>\n            </ul>"
+      },
+      "geometry": {
+        "coordinates": [
+          -121.689540, 37.221614
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "snapshotType": "county",
+        "title": "Solano County",
+        "link": "https://savesfbay.org/wp-content/uploads/2026/07/Solano-County-Snapshot.pdf",
+        "score": null,
+        "description": "<b>Key Vulnerabilities</b>\n            <ul>\n                <li>Contaminated sites along the shoreline, specifically in Fairfield and Suisun City, may be inundated by groundwater rise</li>\n                <li>Suisun Marsh could become permanently inundated by sea level rise</li>\n            </ul>\n            <b>Highlights</b>\n            <ul>\n                <li>The Solano Bayshore Resiliency Project will create a collaborative sea level rise plan for the county, Benicia, Fairfield, Suisun City, Vallejo, and the Fairfield-Suisun Sewer District</li>\n            </ul>\n            <b>Opportunities</b>\n            <ul>\n                <li>Study the impacts of sea level rise on contaminated sites and the potential health risks to surrounding communities</li>\n                <li>Establish building design standards in at-risk areas to ensure new buildings are resilient to flooding</li>\n            </ul>"
+      },
+      "geometry": {
+        "coordinates": [
+          -121.939594, 38.267226
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "snapshotType": "county",
+        "title": "Sonoma County",
+        "link": "https://savesfbay.org/wp-content/uploads/2026/07/Sonoma-County-Snapshot.pdf",
+        "score": null,
+        "description": "<b>Key Vulnerabilities</b>\n            <ul>\n                <li>Increased storms and sea level rise will cause more extreme flooding along the Russian River</li>\n                <li>Sea level rise threatens county medical, transportation, energy, and emergency service resources near the shoreline</li>\n            </ul>\n            <b>Highlights</b>\n            <ul>\n                <li>Sonoma County is collaborating with the City of Petaluma to create the Sonoma County North Bay Sea Level Rise Resilience Plan</li>\n            </ul>\n            <b>Opportunities</b>\n            <ul>\n                <li>Create a Storm Drain Master Plan to ensure county storm drains can function under future storm conditions</li>\n                <li>Create a Green Infrastructure Plan to mitigate stormwater flooding using urban greening features</li>\n            </ul>"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.926110, 38.525182
         ],
         "type": "Point"
       }

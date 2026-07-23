@@ -42,6 +42,40 @@
     const estimatedPopupWidth = 520;
     const estimatedPopupHeight = 420;
 
+    function normalizeSnapshotData(data) {
+      return {
+        ...data,
+        features: data.features.map((feature) => {
+          const rawType = feature.properties?.snapshotType || feature.properties?.type || feature.type || '';
+          const snapshotType = rawType.toLowerCase() === 'county' ? 'county' : 'city';
+
+          return {
+            ...feature,
+            type: 'Feature',
+            properties: {
+              ...feature.properties,
+              snapshotType
+            }
+          };
+        })
+      };
+    }
+
+    function loadMapImage(id, path) {
+      return new Promise((resolve, reject) => {
+        map.loadImage(assetUrl(path), (error, image) => {
+          if (error) {
+            reject(error);
+            return;
+          }
+          if (!map.hasImage(id)) {
+            map.addImage(id, image);
+          }
+          resolve();
+        });
+      });
+    }
+
     function addCitySnapshotLayers(useCustomIcon) {
       if (map.getLayer(citySnapshotsLayerId)) {
         return;
@@ -53,8 +87,18 @@
           type: 'symbol',
           source: 'slr-city-snapshots-source',
           layout: {
-            'icon-image': 'city-pin',
-            'icon-size': 0.28,
+            'icon-image': [
+              'case',
+              ['==', ['get', 'snapshotType'], 'county'],
+              'county-pin',
+              'city-pin'
+            ],
+            'icon-size': [
+              'case',
+              ['==', ['get', 'snapshotType'], 'county'],
+              0.134,
+              0.28
+            ],
             'icon-anchor': 'bottom',
             'icon-allow-overlap': true
           }
@@ -139,23 +183,31 @@
       };
     }
 
-    map.on('load', () => {
-      map.addSource('slr-city-snapshots-source', {
-        type: 'geojson',
-        data: assetUrl('SLR_city-snapshots.geojson')
-      });
+    map.on('load', async () => {
+      try {
+        const response = await fetch(assetUrl('SLR_city-snapshots.geojson'));
+        const snapshotData = normalizeSnapshotData(await response.json());
 
-      map.loadImage(assetUrl('map-pin-1.png'), (error, image) => {
-        if (error) {
-          console.error('Failed to load city marker image:', error);
-          addCitySnapshotLayers(false);
-          return;
-        }
-        if (!map.hasImage('city-pin')) {
-          map.addImage('city-pin', image);
-        }
+        map.addSource('slr-city-snapshots-source', {
+          type: 'geojson',
+          data: snapshotData
+        });
+
+        await Promise.all([
+          loadMapImage('city-pin', 'map-pin-1.png'),
+          loadMapImage('county-pin', 'map-pin-2.png')
+        ]);
         addCitySnapshotLayers(true);
-      });
+      } catch (error) {
+        console.error('Failed to load city snapshot markers:', error);
+        if (!map.getSource('slr-city-snapshots-source')) {
+          map.addSource('slr-city-snapshots-source', {
+            type: 'geojson',
+            data: assetUrl('SLR_city-snapshots.geojson')
+          });
+        }
+        addCitySnapshotLayers(false);
+      }
     });
     /* 
     Add an event listener that runs
